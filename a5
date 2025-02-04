@@ -5,15 +5,8 @@
 		{
 			Console.WriteLine("Informe um número: ");
 			float num = float.Parse(Console.ReadLine());
-			if (num % 2 == 0) {
-				Console.WriteLine("O número é par");
-			} 
-		 	
-		 	else { 
-		 		Console.WriteLine("O número é impar");
-		 	}
-		 	
-			
+			string  resultado = (num % 2 == 0) ? "O número é par" : "O número é impar";
+			Console.WriteLine(resultado);
 			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
