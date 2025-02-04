@@ -1,0 +1,15 @@
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			List<string> lista = new List<string>();
+			
+			bool resultado = (lista.Count == 0);
+			Console.WriteLine(resultado);
+        
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
