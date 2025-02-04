@@ -1,0 +1,16 @@
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Informe um número");
+			int num;
+			num = Convert.ToInt32(Console.ReadLine());
+				string result = (num == 0) ? "O número é zero" :(num > 0) ? "O número é positivo" : "O número é negativo";
+			Console.WriteLine(result);
+        
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
