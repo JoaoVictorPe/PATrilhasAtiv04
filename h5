@@ -1,0 +1,14 @@
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			string numeroString = "123"; 
+			int num = Convert.ToInt32(numeroString);	
+			Console.WriteLine(num); 
+        
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
